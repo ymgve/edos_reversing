@@ -2,7 +2,26 @@
 # EDOS CD-ROM overview
 
 ## EDOS background
-TODO
+EDOS was an attempt at an alternative method of distributing software back in the late 80s/early 90s in Europe.
+Instead of stores having a backroom full of individual games on tape and floppy, they instead had a collection
+of blank tapes and floppies, and a custom computer that could write the games to tape/floppy while you waited.
+
+The participating stores with the system got periodic updates with new games on CD-ROMs, and this is an attempt
+at reverse engineering the formats on those CD-ROMs without having the rest of the hardware for the system.
+
+At the moment I have found two different CD-ROMs, both from late 1992. If anyone has any other CDs from this system,
+or even parts of the hardware that the system used, I'd love to get in touch with you.
+
+Websites with more info about the system:
+
+https://blog.amigaguru.com/edos-the-software-on-demand-of-the-80s/
+
+https://www.cpc-power.com/cpcarchives/index.php?page=articles&num=318
+
+https://amiga.abime.net/publishers/view/edos-software-on-demand
+
+https://cpcrulez.fr/games-company-british_telecom_buys_edos_firm.htm
+
 
 ## CD-ROM content
 Game data files: numbered folders, containing files with filenames `Pxxxxxxx.Ayy` where `xxxxxxx` is the title ID and `yy` is the platform ID (see platform ID list)

@@ -38,9 +38,9 @@ Format of entries:
     1       2       data
     3       1       unused, always 0
 
-Type 1 means `data` is a little endian direct offset to the start of the writer code snippet
-Type 3 means the first byte of `data` is a new `system_id` and second byte is a new `format_id` that redirects to another Type 1 entry
-Type 2 and others have not been observed
+- Type 1 means `data` is a little endian direct offset to the start of the writer code snippet
+- Type 3 means the first byte of `data` is a new `system_id` and second byte is a new `format_id` that redirects to another Type 1 entry
+- Type 2 and others have not been observed
 
 Each code snippet is *prepended* with a 0x1d bytes metadata header, the code snippet offset points to the *end* of this metadata
 

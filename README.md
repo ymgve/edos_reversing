@@ -136,7 +136,7 @@ In contrast with tapes, there are only a few format IDs:
             operator should flip the disk (Only used for Amstrad)
     
 #### Disk format type 0x60 for Amiga
-Data block starts at hole sync. Each byte represents the distance to the next flux transtition, measured in approx `byteval` * 35ns
+Data block starts at hole sync. Each byte represents the distance to the next flux transtition, measured in approx `byteval` * ~68ns
 
 TODO get more precise measurement, this works for most games but not all
 TODO see how very large distances are handled
